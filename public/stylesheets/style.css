@@ -1,0 +1,28 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+
+
+
+
+.panel-body.review-container {
+	padding-top: 0;
+}
+
+.review-header {
+	margin-bottom: 1px;
+}
+
+.reviewer {
+	margin: 0 5px;
+}
+
+.bs-example{
+	margin: 20px;
+}

@@ -1,0 +1,16 @@
+extends layout
+
+block content
+
+  .row.page-header
+    .col-lg-12
+        h3= pageHeader.title
+
+  .row
+    .col-xs-12
+      .responseMessage= responseMessage
+      .row.list-group
+
+        each object in responseBody
+          .col-xs-12.list-group-item
+            h5 #{object.theText}
